@@ -12,7 +12,11 @@ enableInlineShortcodes: true
 # minify:
 #   disableXML: true
 #   minifyOutput: true
+caches:
+  images:
+    dir: :cacheDir/images
 
+    
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: PersonalWebsite
